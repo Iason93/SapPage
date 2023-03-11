@@ -1,6 +1,40 @@
 /* h3 a{
  color: blue;
 } */
-h2{
+/* h2{
  color: blue;
+} */
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+h1{
+ /* PUT THE NAME NEXT TO PROFILE IMG */
+}
+/* p{
+ text-align: center;
+} */
+div{
+ /* display: flex; */
+ padding-left: 50px;
+}
+#profile-image{
+ float: left;
+}
+.menu{
+ clear: left;
+}
+.banner{
+ clear: left;
+ background: url(./images/background.jpeg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ height: 100vh;
+ /* text-align: center; */
+
+}
+.copyright{
+ text-align: center;
 }
