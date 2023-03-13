@@ -4,26 +4,31 @@
 /* h2{
  color: blue;
 } */
+/* body{
+ color: blue;
+} */
 *{
  margin: 0;
  padding: 0;
  box-sizing: border-box;
+ /* color: F1F2EE; */
+ /* color:blue; */
 }
-h1{
- /* PUT THE NAME NEXT TO PROFILE IMG */
-}
-/* p{
- text-align: center;
-} */
+ 
 div{
  /* display: flex; */
  padding-left: 50px;
 }
-#profile-image{
+/* #profile-image{
  float: left;
+} */
+.identity h1{
+ /* color: aquamarine; */
+ width: 100px;
 }
 .menu{
  clear: left;
+ background: F1F2EE;
 }
 .banner{
  clear: left;
@@ -32,9 +37,13 @@ div{
  background-repeat: no-repeat;
  background-attachment: fixed;
  height: 100vh;
+ /* width: 50%; */
  /* text-align: center; */
 
 }
+/* .banner p{
+ width: 50%;
+} */
 .copyright{
  text-align: center;
 }
